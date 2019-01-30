@@ -88,13 +88,13 @@ In appdata/roaming/Gexan (or another folder what you have choosed at wallets fir
 Insert as a new line the following:
 
 ```bash
-masternodename IP:1945 masternodeprivatekey collateralTxID outputID
+masternodename IP:19666 masternodeprivatekey collateralTxID outputID
 ```
 
 An example would be
 
 ```
-mn1 127.0.0.2:1945 87fKbpBwobwx6u9NfBwjS6y7dL8f6Rtnv31wwj1qJPNALYNnLt8 0883e988b82e7c0ddacb451e33df34061b8fbdb26df706ef783adf9f6730a874 1
+mn1 127.0.0.2:19666 87fKbpBwobwx6u9NfBwjS6y7dL8f6Rtnv31wwj1qJPNALYNnLt8 0883e988b82e7c0ddacb451e33df34061b8fbdb26df706ef783adf9f6730a874 1
 ```
 
 _masternodename_ is a name you choose, _IP_ is the public IP of your VPS, masternodeprivatekey is the output from `masternode genkey`, and _collateralTxID_ & _outputID_ come from `masternode outputs`. Please note that _masternodename_ must not contain any spaces, and should not contain any special characters.
