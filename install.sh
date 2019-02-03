@@ -7,7 +7,7 @@ if [[ $EUID -eq 0 ]]; then
 fi
 
 # Set these to change the version of Gexan to install
-TARBALLURL="https://github.com/gexanlottery/gexan/releases/download/untagged-7d961a8735ca76df2c42/ubuntu16.04-daemon.zip"
+TARBALLURL="https://github.com/gexanlottery/gexan/releases/download/v2.0.0.0/ubuntu16.04-daemon.zip"
 TARBALLNAME="ubuntu16.04-daemon.zip"
 GEXVERSION="2.0.0.0"
 # Get our current IP
