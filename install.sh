@@ -14,7 +14,7 @@ GEXVERSION="2.0.0.0"
 EXTERNALIP=`dig +short myip.opendns.com @resolver1.opendns.com`
 clear
 
-TARBALLNAME="ubuntu16-daemon.tar.gz"
+TARBALLNAME="ubuntu16-daemon.zip"
 GEXVERSION="2.0.0.0"
 # Get our current IP
 EXTERNALIP=`dig +short myip.opendns.com @resolver1.opendns.com`
@@ -83,7 +83,7 @@ fi
 
 #Install GEX Daemon
 wget $TARBALLURL
-sudo tar -xzvf $TARBALLNAME
+sudo unzip $TARBALLNAME
 sudo rm $TARBALLNAME
 sudo cp gexd /usr/local/bin
 sudo cp gex-cli /usr/local/bin
