@@ -27,7 +27,7 @@ STRING6="Some optional installs"
 STRING7="Starting your masternode"
 STRING8="Now, you need to finally start your masternode in the following order:"
 STRING9="Go to your windows wallet and from the Control wallet Console please enter"
-STRING10="startmasternode alias false <mymnalias>"
+STRING10="masternode start-alias <mymnalias>"
 STRING11="where <mymnalias> is the name of your masternode alias (without brackets)"
 STRING12="once completed please return to VPS and press the space bar"
 STRING13=""
@@ -113,7 +113,7 @@ chmod 0600 ~/.Gexan/Gexan.conf
 ) | crontab
 (
   crontab -l 2>/dev/null
-  echo '@reboot sleep 60 && gex-cli startmasternode local false'
+  echo '@reboot sleep 60 && gex-cli masternode start-local false'
 ) | crontab
 gexd -daemon
 
