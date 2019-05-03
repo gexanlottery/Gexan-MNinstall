@@ -135,5 +135,4 @@ echo $STRING14
 sleep 5m
 
 read -p "Press any key to continue... " -n1 -s
-gex-cli startmasternode local false
 gex-cli masternode status
