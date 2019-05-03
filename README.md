@@ -102,7 +102,7 @@ _masternodename_ is a name you choose, _IP_ is the public IP of your VPS, master
 Open up the local wallet, unlock with your encryption password, and open up the Console.
 
 ```bash
-startmasternode alias false <masternodename>
+startmasternode start-alias <masternodename>
 ```
 If done correctly, it will indicate that the masternode has been started correctly.
 
