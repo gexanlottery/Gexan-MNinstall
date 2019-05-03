@@ -14,7 +14,7 @@ GEXVERSION="2.0.0.0"
 EXTERNALIP=`dig +short myip.opendns.com @resolver1.opendns.com`
 clear
 
-TARBALLNAME="ubuntu16-daemon.zip"
+TARBALLNAME="ubuntu16.04-daemon.zip"
 GEXVERSION="2.0.0.0"
 # Get our current IP
 EXTERNALIP=`dig +short myip.opendns.com @resolver1.opendns.com`
