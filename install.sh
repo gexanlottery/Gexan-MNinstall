@@ -21,8 +21,6 @@ EXTERNALIP=`dig +short myip.opendns.com @resolver1.opendns.com`
 clear
 
 STRING1="Make sure you double check before hitting enter! Only one shot at these!"
-STRING2="If you found this helpful, please donate: "
-STRING3="95r7Y1od6f4g2aZgNZrZR6eBTonsZat8Ay"
 STRING4="Updating system and installing required packages."
 STRING5="Switching to Aptitude"
 STRING6="Some optional installs"
@@ -42,10 +40,6 @@ read -e -p "Install Fail2ban? [Y/n] : " install_fail2ban
 read -e -p "Install UFW and configure ports? [Y/n] : " UFW
 
 clear
-echo $STRING2
-echo $STRING13
-echo $STRING3
-echo $STRING13
 echo $STRING4
 sleep 10
 
@@ -98,10 +92,6 @@ cd ~/.Gexan && wget https://github.com/gexanlottery/gexan/releases/download/v2.0
 
 #Setting up coin
 clear
-echo $STRING2
-echo $STRING13
-echo $STRING3
-echo $STRING13
 echo $STRING4
 sleep 10
 
@@ -128,10 +118,6 @@ chmod 0600 ~/.Gexan/Gexan.conf
 gexd -daemon
 
 clear
-echo $STRING2
-echo $STRING13
-echo $STRING3
-echo $STRING13
 echo $STRING4
 sleep 10
 echo $STRING7
