@@ -11,6 +11,8 @@
   - The generated address will now be labelled as MN1. If you want to setup more masternodes just repeat that steps so you end up with several addresses for the total number of nodes you wish to setup. Example: For 10 nodes you will need 10 addresses, label them all.
 
   - Once all addresses are created send exact amount of Gexan to each one of them. Ensure that you send exact amount (ONLY 5000 GEX) and do it in a single transaction. You can double check where the coins are coming from by checking it via coin control usually, that's not an issue.
+  - go to Menu/setting/edit configuration file and write: staking=0 
+  - Close your wallet and open again
 
 * As soon as all transactions are done, we MUST wait no less that 15 confirmations. You can check this in your wallet or use the explorer. It should take around 15 minutes if all transaction have 15 confirmations.
 
