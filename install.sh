@@ -7,15 +7,9 @@ if [[ $EUID -eq 0 ]]; then
 fi
 
 # Set these to change the version of Gexan to install
-TARBALLURL="https://github.com/gexanlottery/gexan/releases/download/v2.0.0.0/ubuntu16.04-daemon.zip"
+TARBALLURL="https://github.com/gexanlottery/gexan/releases/download/v2.0.3.0/ubuntu16.04-daemon.zip"
 TARBALLNAME="ubuntu16.04-daemon.zip"
-GEXVERSION="2.0.0.0"
-# Get our current IP
-EXTERNALIP=`dig +short myip.opendns.com @resolver1.opendns.com`
-clear
-
-TARBALLNAME="ubuntu16.04-daemon.zip"
-GEXVERSION="2.0.0.0"
+GEXVERSION="2.0.3.0"
 # Get our current IP
 EXTERNALIP=`dig +short myip.opendns.com @resolver1.opendns.com`
 clear
@@ -88,7 +82,6 @@ gexd -daemon
 sleep 60
 gex-cli stop
 clear
-cd ~/.Gexan && wget https://github.com/gexanlottery/gexan/releases/download/v2.0.0.0/bootstrap.zip && unzip bootstrap.zip
 
 #Setting up coin
 clear
