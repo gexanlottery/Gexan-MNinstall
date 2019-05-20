@@ -1,18 +1,18 @@
 #!/bin/bash
 
-TARBALLURL="https://github.com/gexanlottery/gexan/releases/download/v2.0.3.1/ubuntu16.04-daemon.zip"
+TARBALLURL="https://github.com/gexanlottery/gexan/releases/download/v2.0.3.0/ubuntu16.04-daemon.zip"
 TARBALLNAME="ubuntu16.04-daemon.zip"
-GEXVERSION="2.0.3.1"
+GEXVERSION="2.0.3.0"
 
 clear
-echo "This script will update your masternode to version 2.0.3.1"
+echo "This script will update your masternode to version 2.0.3.0"
 read -p "Press Ctrl-C to abort or any other key to continue. " -n1 -s
 clear
 echo "Please enter your password to enter administrator mode:"
 sudo true
 echo "Shutting down masternode..."
 gex-cli stop
-echo "Installing Gexan 2.0.3.1"
+echo "Installing Gexan 2.0.3.0"
 mkdir ./gex-temp && cd ./gex-temp
 wget $TARBALLURL
 unzip $TARBALLNAME
