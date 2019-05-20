@@ -31,5 +31,4 @@ clear
 read -p "Please wait at least 5 minutes for the wallet to load, then press any key to continue." -n1 -s
 clear
 echo "Starting masternode..." # TODO: Need to wait for wallet to load before starting...
-gex-cli startmasternode local false
 gex-cli masternode status
