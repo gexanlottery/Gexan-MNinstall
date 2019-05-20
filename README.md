@@ -114,8 +114,7 @@ Now you just need to wait for the VPS to sync up the blockchain and await your f
 
 ## Refreshing Node
 
-To refresh your node please run this from root ~
-
+To refresh your node please run this from your created user
 ```
 rm -rf Gexan-MNinstall && git clone https://github.com/gexanlottery/Gexan-MNinstall && cd Gexan-MNinstall && bash refresh_node.sh
 ```
@@ -124,7 +123,7 @@ No other attention is required.
 
 ## Updating Node
 
-To update your node please run this from root ~ and follow the instructions:
+To update your node please run this from  your created user and follow the instructions:
 
 ```
 cd Gexan-MNinstall && git pull && bash update_node.sh
